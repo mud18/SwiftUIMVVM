@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E852C73C2B24620B00046F67 /* ItemDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852C73B2B24620B00046F67 /* ItemDataSource.swift */; };
 		E85308562B2457500014FA54 /* StrykerTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85308552B2457500014FA54 /* StrykerTestAppApp.swift */; };
 		E85308582B2457500014FA54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85308572B2457500014FA54 /* ContentView.swift */; };
 		E853085A2B2457500014FA54 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85308592B2457500014FA54 /* Item.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E852C73B2B24620B00046F67 /* ItemDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDataSource.swift; sourceTree = "<group>"; };
 		E85308522B2457500014FA54 /* StrykerTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrykerTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85308552B2457500014FA54 /* StrykerTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrykerTestAppApp.swift; sourceTree = "<group>"; };
 		E85308572B2457500014FA54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E852C73A2B2461DA00046F67 /* DataSourceIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				E852C73B2B24620B00046F67 /* ItemDataSource.swift */,
+			);
+			path = DataSourceIntegration;
+			sourceTree = "<group>";
+		};
 		E85308492B2457500014FA54 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,7 @@
 		E85308542B2457500014FA54 /* StrykerTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				E852C73A2B2461DA00046F67 /* DataSourceIntegration */,
 				E85308552B2457500014FA54 /* StrykerTestAppApp.swift */,
 				E85308572B2457500014FA54 /* ContentView.swift */,
 				E85308592B2457500014FA54 /* Item.swift */,
@@ -261,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85308582B2457500014FA54 /* ContentView.swift in Sources */,
+				E852C73C2B24620B00046F67 /* ItemDataSource.swift in Sources */,
 				E853085A2B2457500014FA54 /* Item.swift in Sources */,
 				E85308562B2457500014FA54 /* StrykerTestAppApp.swift in Sources */,
 			);
